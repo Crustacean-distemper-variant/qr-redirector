@@ -8,7 +8,7 @@
       const link2 = "https://docs.google.com/forms/d/e/1FAIpQLSeBPGXPMrCf13RhX-7wb9RVIJoomJsLfFoU9lsUInmo8rgrvQ/viewform?usp=dialog";  // 10% chance
 
       const rand = Math.random();
-      const destination = rand < 0.9 ? link1 : link2;
+      const destination = rand < 0.5 ? link1 : link2;
 
       window.location.href = destination;
     </script>
